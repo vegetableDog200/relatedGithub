@@ -1,4 +1,10 @@
 import random
-newList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-for i in newList:
-    print(i)
+from random import randint
+
+newList = []
+
+
+for i in range(10):
+    x = randint(0, 10)
+    newList.append(x)
+    print(newList[i])
