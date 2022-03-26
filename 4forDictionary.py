@@ -12,6 +12,3 @@ if(characterA.get('strength')==None):
     print("that isn't a character stat.")
 else: print(characterA.get('strength'))
 
-if(characterA.get('speed')==None):
-    print("that isn't a character stat.")
-else: print(characterA.get('speed'))
