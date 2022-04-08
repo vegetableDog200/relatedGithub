@@ -4,7 +4,7 @@ keys = ['strength', 'dexterity', 'constitution', 'intelligence', 'wisdom', 'char
 characterA = {}
 for v in keys:
     characterA[v] = random.randint(1, 20)
-
+print(characterA)
 
 
 
