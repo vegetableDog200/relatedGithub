@@ -1,6 +1,7 @@
-def function(Ctemp):
-    Ftemp = Ctemp*9/5+32
-    print(Ftemp)
+def function(temp):
+    temp = temp * 9 / 5 + 32
+    print(temp)
 
-Ctemp =float( input('Please input you want to convert the degrees Celsius :'))
-print(function(Ctemp))
+
+result = float(input('Please input you want to convert the degrees Celsius :'))
+print(function(result))

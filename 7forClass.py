@@ -1,2 +1,7 @@
 class Character:
-    strength,
+    strength = ''
+    dexterity = ''
+    constitution = ''
+    intelligence = ''
+    wisdom = ''
+    charisma = ''
