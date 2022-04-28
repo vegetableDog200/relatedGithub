@@ -3,5 +3,6 @@ def function(temp):
     print(temp)
 
 
-result = float(input('Please input you want to convert the degrees Celsius :'))
-print(function(result))
+if __name__ == "__main__":
+    result = float(input('Please input you want to convert the degrees Celsius :'))
+    print(function(result))
